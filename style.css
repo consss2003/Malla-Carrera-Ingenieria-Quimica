@@ -1,0 +1,26 @@
+body {
+  background: #DED1BA;
+  font-family: 'Lora', serif;
+  color: #8A7356;
+  margin: 20px;
+}
+h1 {
+  text-align: center;
+  color: #5B4C3A;
+}
+# malla { display: flex; flex-wrap: wrap; gap: 16px; justify-content: center; }
+.materia {
+  background: #F4EFE6;
+  border: 2px solid #C4B39A;
+  padding: 12px;
+  width: 200px;
+  border-radius: 8px;
+  position: relative;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+.materia:hover { background: #EBE3D3; }
+.materia.aprobada { background: #A7A79B; }
+.materia.cursando { background: #D8C8B3; }
+.materia.pendiente { background: #E3DED1; }
+.materia.optativa { background: #A40016; color: #fff; }

@@ -1,0 +1,18 @@
+{
+  "materias": [
+    {
+      "codigo": "FIS1",
+      "nombre": "Física I",
+      "estado": "pendiente",
+      "correlativas": []
+    },
+    {
+      "codigo": "FIS2",
+      "nombre": "Física II",
+      "estado": "pendiente",
+      "correlativas": ["FIS1"]
+    }
+    // ... agregá todas las materias según tu plan
+    // ACA VAN LAS ELECTIVAS: materias con "optativa", por ej.
+  ]
+}
