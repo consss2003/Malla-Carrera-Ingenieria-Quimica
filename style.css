@@ -14,27 +14,30 @@ h1 {
 
 .malla {
   display: flex;
+  flex-direction: row;
   flex-wrap: nowrap;
   overflow-x: auto;
-  gap: 1rem;
+  gap: 2rem;
   padding-bottom: 1rem;
 }
 
 .cuatrimestre {
   background-color: #F4EFE6;
   border: 2px solid #C4B39A;
-  border-radius: 12px;
+  border-radius: 16px;
   padding: 1rem;
-  min-width: 200px;
+  min-width: 220px;
   flex-shrink: 0;
-  box-shadow: 2px 2px 8px rgba(0,0,0,0.1);
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.1);
 }
 
 .cuatrimestre h2 {
   font-size: 1.1rem;
   text-align: center;
-  margin-bottom: 0.8rem;
+  margin-bottom: 1rem;
   color: #5B4C3A;
+  border-bottom: 1px solid #C4B39A;
+  padding-bottom: 0.5rem;
 }
 
 .materia {
@@ -46,6 +49,8 @@ h1 {
   color: #8A7356;
   cursor: pointer;
   transition: background-color 0.3s;
+  white-space: pre-line;
+  text-align: center;
 }
 
 .materia.cursando {
